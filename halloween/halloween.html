@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Halloween</title>
+<title>Halloween Sounds</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="">
   
    <style>
+
+h1, h3 color {color: white;}
+h1 {font-size: 4em;}
+h3 {font-size: 2em; margin-bottom: 0;}
+
+body {
+  background-image: url(images/pumpkin.jpg);
+}
 background-size: cover;
 background-attachment: fixed;
 background-position: center;
@@ -19,29 +27,25 @@ color: white;
   
 <body>
  
-
-  <img src="pumpkin.jpg" alt="Pumpkin">
   
   <h1> Halloween Sounds </h1>
   
   <h3> Rainstorm </h3>
-  <audio controls>
-  <source src="rainStorm.ogg" type="audio/ogg">
-  <source src="rainStorm.mp3" type="audio/mpeg">
-  <source src="rainStorm.wav" type="audio/mpeg">
-Your browser does not support the audio element.
+  <audio autoplay controls loop>
+  <source src="audio/rainStorm.ogg" type="audio/ogg">
+  <source src="audio/rainStorm.mp3" type="audio/mpeg">
+  <source src="audio/rainStorm.wav" type="audio/wav">
 </audio>
   
   <h3> Werewolf </h3>
   <audio controls>
-  <source src="werewolf.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
+  <source src="audio/werewolf.mp3" type="audio/mpeg">
+
 </audio>
   
   <h3> Witch's Crackle </h3>
   <audio controls>
-  <source src="witchesCackle.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
+  <source src="audio/witchesCackle.mp3" type="audio/mpeg">
     
 </audio>
 </body>
