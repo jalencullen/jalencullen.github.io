@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>In Class Form Assignment</title>
+<meta charset="utf-8">
+
+<style>
+.column {width: 40%; float: left;}
+</style>
+
+<link rel="stylesheet" href="">
+</head>
+<body>
+	<div class="column">
+
+	<form action= "https://idesstage2.bc.edu/class/results.php" method = "post">
+		Name:
+		<input type="text" name="Name"> <br>
+
+		Email:
+		<input type="email" name="Email" required> <br>
+		<br>
+
+		<input type="range" min="0" max="100" onchange="showValue(this.value)">
+
+		<span id="range"> 0 </span>
+
+		<input type="submit" value="Submit" style="display:block;background-color:#33ff99;font-weight:bold"
+
+	</form>
+</div>
+<div class="column">
+	<img src="http://wilstar.com/wp-content/uploads/2017/10/turkey-called-turkey.jpg" width="25%">
+	<caption>Some mysterious image here</caption>
+
+<script>
+function showValue(this.value)
+</script>
+
+<script type="text/javascript">
+function showValue(newValue)
+{
+document.getElementById("range").innerHTML=newValue;
+}
+</script>
+
+</body>
+</html>
