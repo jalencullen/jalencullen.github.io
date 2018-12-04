@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="utf-8">
+    <title>MCF-Home</title>
+    <link rel="stylesheet" href="style.css">
+	  
+    <meta name="description" content="your description">
+     <meta name="keyword" content="your keywords, more key words">
+    <meta name="author" content="your name">
+
+<style>
+body {
+	background-color:grey;
+}
+h1 {
+	text-align: center; color:Black;
+}
+ul {
+	padding-top: 5%
+	/* border: 1px solid red; */
+}
+ol {
+	padding-top: 0%; margin-bottom: 5%; margin-left: 2%
+	/* border: 1px dashed yellow; */
+}
+ul li {
+	color:gold; font-size: 1.5em
+	/* background-color: gold; */
+}
+ol li {
+	color: white; font-size: 1.3em; line-height: 1.4
+}
+figcaption {
+	color: white; font-style: italic;
+}
+</style>
+
+ </head>
+
+<body>
+
+<img src="final/images/banner.jpeg">
+<h1>Mass Car Fans</h1>
+		<nav>
+  <ol>
+	  <li><a href="mineral_home.html">Mineral Home</a></li> 
+	  <li><a href="mineral_list.html">Mineral Classes</a></li>
+	  <li><a href="mineral_properties.html">Mineral Properties</a></li>
+	  
+</ol> 
+</nav>
+
+	<p>What are Minerals?</p>
+
+<li>To meet the definition of "mineral" used by most geologists, a substance must meet five requirements:
+<ul>
+	<li>naturally occurring</li>
+    <li>inorganic</li>
+    <li>solid</li>
+    <li>definite chemical composition</li>
+    <li>ordered internal structure</li>
+	</ul>
+	</li>
+
+<p>"Naturally occurring" means that people did not make it. Steel is not a mineral because it is an alloy produced by people. "Inorganic" means that the substance is not made by an organism. Wood and pearls are made by organisms and thus are not minerals. "Solid" means that it is not a liquid or a gas at standard temperature and pressure.
+
+"Definite chemical composition" means that all occurrences of that mineral have a chemical composition that varies within a specific limited range. For example: the mineral halite (known as "rock salt" when it is mined) has a chemical composition of NaCl. It is made up of an equal number of atoms of sodium and chlorine.
+
+"Ordered internal structure" means that the atoms in a mineral are arranged in a systematic and repeating pattern. The structure of the mineral halite is shown in the illustration on this page. Halite is composed of an equal ratio of sodium and chlorine atoms arranged in a cubic pattern. 
+	</p>
+<footer>
+  <p>Adopted from Geology.com</p>
+</footer>
+	
+ </body>
+</html>
