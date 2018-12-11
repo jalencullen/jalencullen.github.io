@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Survey</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="">
+
+<style>
+body {
+font-size: 1.3em;
+background-color: grey;
+}
+content{
+width:90%;
+margin:auto;
+}
+h1 {
+text-align:center;
+}
+form {
+margin-left:5%;
+}
+input {
+margin-bottom:2%;
+}
+select option {
+font-size: 1.75em;
+width: 150px;
+}
+</style>
+</head>
+<body>
+<a href="mcf.html"><p style="text-align:center">HOME</a>
+<h1 style="text-align: center; color: black">ENTER YOUR CAR NOW</h1>
+
+<p style="text-align: center; color: black">
+  All show events require you driver and vehicle registration beforehand. There will be awards, trophy categories and opportunities to get your car in the spotlight with awards to cater for any make, model or era of car. We respect each and every car regardless of age, modification or manufacturer. Vehicles must be entered into the display arena to be eligible for awards.
+</p>
+<form 
+method="post" 
+action="https://idesstage2.bc.edu/class/results.php">
+
+<br>
+<hr>
+<br>
+
+ <h2>Personal Info</h2>
+First name:<br>
+  <input type="text" name="firstname">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname">
+  <br>
+
+Email Address:<br>
+  <input type="email" name="Email Address">
+  <br>
+
+  Contact Number:<br>
+  <input type="text" name="Contact Number">
+  <br>
+  Select which show you are attending:<br>
+ <select name="Shows" size="3">
+    <option value="option1">MassTuning Underground</option>
+    <option value="option2">Tuner Status</option>
+    <option value="option3">CleanCultureX</option>
+    <option value="option4">BeastCoast Wednesdays</option>
+  </select>
+  <br>
+<br>
+<hr>
+<h2>Vehicle Info</h2>
+
+Make:<br>
+ <input type="text" name="vehiclemake">
+  <br>
+Model:<br>
+  <input type="text" name="vehiclemodel">
+  <br>
+Year:<br>
+<input type="text" name="vehicleyear">
+<br>
+<br>
+
+<fieldset>
+  <legend>Which category would you say your vehicle falls in?</legend>
+<input type="radio" name="European" value="European">European<br>
+<input type="radio" name="American" value="American">American<br>
+<input type="radio" name="Asian" value="Asian">Asian<br>
+<input type="radio" name="Motorsport" value="Motorsport">Motorsport<br>
+<input type="radio" name="Exotic" value="Exotic">Exotic<br>
+<input type="radio" name="Stance" value="Stance">Stance<br>
+<input type="radio" name="Hot Rod" value="Hot Rod">Hot Rod<br>
+<input type="radio" name="Other" value="Other">Other<br>
+</fieldset>
+<br>
+
+Provide a brief summary of your vehicle:<br>
+<textarea name="Text Box" rows="8" cols="60">  </textarea>
+  <br><br>
+
+  If entering as a part of a car club, which club?<br>
+<textarea name="Text Box" rows="8" cols="60">  </textarea>
+  <br><br>
+
+
+<fieldset>
+  <legend>Have you been to a car show before?</legend>
+<input type="checkbox" name="option1" value="option1">Yes<br>
+<input type="checkbox" name="option2" value="option2">No<br>
+</fieldset>
+<br><br>
+
+
+
+<input type="submit" value="Submit"
+style="display:block;background-color:#33ff99;font-weight:bold;">
+
+
+  </datalist> 
+</form>
+
+
+</body>
+</html>
