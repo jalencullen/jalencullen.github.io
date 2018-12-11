@@ -23,10 +23,47 @@ h1 {
 body {
   background-color:grey;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
 </style>
 </head>
 <body>
-<a href="mcf.html"><p style="text-align:center">HOME</a>
+
+<ul>
+  <li><a class="active" href="mcf.html">Home</a></li>
+  <li><a href="info.html">Info</a></li>
+  <li><a href="events.html">Upcoming Events</a></li>
+  <li><a href="photos.html">Photo Gallery</a></li>
+  <li><a href="register.html">Registration Form</a></li>
+  <li><a href="media.html">Contact Us</a></li>
+</ul>
+
 <h1>Upcoming Events</h1>
 
 <div class="row">
